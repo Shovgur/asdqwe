@@ -12,6 +12,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        'bg': "url('/bg.jpeg')",
+      },
+      fontFamily: {
+        sans: ['var(--font-woff2)'],
+        mono: ['var(--font-woff)'],
+      },
     },
   },
   plugins: [],
